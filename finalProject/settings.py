@@ -15,6 +15,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', 'xyzcorporationdemo.onrender.com,localhost,127.0.0.1').split(',')
 
 # Other settings...
+server - app.server
 
 # Application definition
 INSTALLED_APPS = [
