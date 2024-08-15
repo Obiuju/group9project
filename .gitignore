@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.log
+
+# Django specific
+*.sqlite3
+*.pyo
+*.env
+
+# Virtual environment
+venv/
+myenv/
+env/
+
+# VSCode
+.vscode/
+
+# IDE files
+.idea/
+
+# Database files
+*.db
+
+# Static files
+staticfiles/
+
+# Local environment settings
+local_settings.py
+
+# Python egg files
+*.egg-info/
+
+# Media files
+media/
+
+# Node modules if using npm or yarn
+node_modules/
+
+# Secrets
+.env
