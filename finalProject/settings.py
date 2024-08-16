@@ -67,10 +67,10 @@ DATABASES = {
 # Default to local Postgres settings if not using environment variables
 DATABASES['default'] = DATABASES['default'] or {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': os.environ.get('DB_NAME', 'finalproject'),
+    'NAME': os.environ.get('DB_NAME', 'group9db1'),
     'USER': os.environ.get('DB_USER', 'postgres'),
     'PASSWORD': os.environ.get('DB_PASSWORD', 'Ujuobi93#'),
-    'HOST': os.environ.get('DB_HOST', 'localhost'),
+    'HOST': os.environ.get('DB_HOST', 'finalproject-db.cv6iosmaizi8.us-east-1.rds.amazonaws.com'),
     'PORT': os.environ.get('DB_PORT', '5432'),
 }
 
