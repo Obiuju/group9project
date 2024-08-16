@@ -70,7 +70,7 @@ DATABASES['default'] = DATABASES['default'] or {
     'NAME': os.environ.get('DB_NAME', 'finalproject'),
     'USER': os.environ.get('DB_USER', 'postgres'),
     'PASSWORD': os.environ.get('DB_PASSWORD', 'Ujuobi93#'),
-    'HOST': os.environ.get('DB_HOST', 'localhost'),
+    'HOST': os.environ.get('DB_HOST', '192.168.2.20'),
     'PORT': os.environ.get('DB_PORT', '5432'),
 }
 
