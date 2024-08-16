@@ -1,1 +1,1 @@
-web: gunicorn finalProject.wsgi:application --timeout 90 --log-file -
+web: gunicorn finalProject:application --worker-class gevent --workers 3 --log-file -
